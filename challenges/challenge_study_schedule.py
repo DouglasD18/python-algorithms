@@ -10,5 +10,4 @@ def study_schedule(permanence_period, target_time):
         interval = range(student[0], student[1] + 1)
         if target_time in interval:
             studing += 1
-                            
     return studing
