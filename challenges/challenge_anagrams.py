@@ -41,8 +41,3 @@ def is_anagram(first_string, second_string):
     first_ana = ''.join(first_list)
     second_ana = ''.join(second_list)
     return (first_ana, second_ana, first_ana == second_ana)
-
-
-if __name__ == '__main__':
-    result = is_anagram('pedra', 'perda')
-    print(result)

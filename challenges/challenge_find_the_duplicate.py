@@ -21,8 +21,3 @@ def find_duplicate(nums):
         if num != auxiliar:
             return False
     return auxiliar
-
-
-if __name__ == '__main__':
-    result = find_duplicate([1, 3, 4, 2, 2])
-    print(result)
